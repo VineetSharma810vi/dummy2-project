@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<style type="text/css">
+		*
+		{
+			margin:0px;
+			padding: 0px;
+		}
+		.sdiv
+		{
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			text-align: center;
+			margin-top: 30%;
+			margin-left: 50%;
+			animation-name: sample;
+			animation-duration: 0.3s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: ease-in;
+		}
+		.fdiv
+		{
+			width: 100px;
+			height: 200px;
+			background-color: green;
+			
+			animation-name: sample;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: ease-in;*/
+		}
+		.fdiv .sdiv .tdiv p:hover
+		{
+			background-color: white;
+
+			color: blue;
+			width: 120px;
+			border-radius: 20px;
+			border:2px solid red;
+			margin-top: 50%;
+			margin-left: 25%;
+		}
+		@keyframes sample
+		{
+			0%
+			{
+				width: 250px;
+				height: 250px; 
+				background-color: red;
+				transition-property: all;
+				transition-duration: 2s;
+				transition-timing-function: ease-in;
+				tra
+			}
+			50%
+		{
+
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+			background-color: lightgreen;
+			padding-right: 67px;
+		}
+		100%
+		{
+			width: 330px;
+			height: 350px;
+			border-radius: 100%;
+			background-color: green;
+			padding-right: 67px;
+		}
+		}
+		.h1:hover
+		{
+			 margin-left: 50%;
+			display: inline;
+			text-align: center;
+			
+			text-decoration-style: bold;
+			color: red;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 class="h1">HACKER WORLD</h1>
+<div class="fdiv">
+	<div class="sdiv">
+		<div class="tdiv">
+			<p id="para1">This is para</p>
+
+		</div>
+	</div>
+</div>
+</body>
+</html>
